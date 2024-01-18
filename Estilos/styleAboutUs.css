@@ -1,0 +1,38 @@
+
+/* estilos about us */
+#back{
+    background-image: url('../Pic/black-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a{
+    font-family: 'Press Start 2P', system-ui;
+    
+}
+p{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 4%;
+}
+h1{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 3%;
+    
+}
+#imagen, img {
+    height: 100%;
+    width: 98%;
+    padding:1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}

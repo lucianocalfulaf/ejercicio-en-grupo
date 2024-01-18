@@ -1,0 +1,297 @@
+
+body{
+background: url(img/ninbg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1,h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', cursive;
+  color: #ffffff;
+  width:100%;
+  margin: auto;
+}
+h2{
+  margin-top: 20px;
+}
+
+nav {
+  background-color: #343a40;
+  font-family: 'Press Start 2P', cursive;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  padding: 20px;
+}
+
+main{
+  padding: 5%;
+}
+main p{
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+footer{
+  width: 80%;
+  margin: auto;
+}
+footer p{
+  display: inline-block;
+  margin: 5%;
+  }
+
+label{
+  color: lightgray;
+}
+img{
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input[type=submit]{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #ff9185;
+  margin-top: 15px;
+}
+
+.right{
+  display: inline;
+  float: right;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+.left{
+  display: inline;
+  float: left;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+.holder{
+  padding: 5px;
+  clear: both;
+}
+.mario{
+  max-height: 70%;
+  width: auto;
+}
+
+.jumbotron {
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F03%2Fswitch-ecomm-2000.jpg");
+  background-size: contain;
+}
+img{
+  max-width: 50%;
+  height: auto;
+  margin: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 100%;
+  color: white;
+}
+
+/* Fondo */
+body{
+  background: url(img/ninbg.jpg)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin:auto
+  }
+
+main {
+  padding: 5% 5% 5% 5%
+}
+
+/*Tipografía y colores de fuente */
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+h2{
+  color: white;
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.holder{
+  padding: 5px;
+  clear: both;
+}
+
+/* imágenes */
+.right {
+  display:inline;
+  float: right;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+
+.left {
+  display: inline;
+  float: left;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+/*parte de abajo */
+footer {
+  display:block;
+  box-sizing: border-box;
+  margin-left: 134.797px;
+}
+
+footer p {
+  display: inline-block;
+  margin: 5%;
+ 
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #343a40;
+  font-family: 'Press Start 2P', system-ui;
+}
+
+.nav-logo {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav-logo:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-content {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-item {
+  display: list-item;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #6c757d;
+  text-decoration: none;
+  background-color: transparet;
+}
+
+.nav-link:active {
+  color: #fff;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .5);
+}
+
+
+/* estilos about us */
+#back{
+  background-image: url('../Pic/black-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+a{
+  font-family: 'Press Start 2P', system-ui;
+  
+}
+p{
+  color: #ffffff;
+  font-size: 20px;
+  margin: 4%;
+}
+h1{
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 3%;
+  
+}
+#imagen, img {
+  height: 100%;
+  width: 98%;
+  padding:1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+} 
